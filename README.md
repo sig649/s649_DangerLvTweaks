@@ -10,4 +10,5 @@ Elin本体の処理をジャックするのでアプデが来るとバグる可�
 TODO : ベース危険度は低いがlv加算が高い場合に危険度が低くなってしまう可能性に対応  
       ：デバッグログを出力しようとするとスパムになってしまう問題  
       ：＊解決＊//なぜかharmonyのzone.activateからログ出力しようとするとうまくいかない問題（別MOD）  
-：DangerLvFixの調査
+：DangerLvFixの調査  
+      →Zone_Field.cs：=>base.Tile.source.dangerLv //ノースティリスのマス目毎の難易度のことかなあ,_dangerLvは一層目のdangerLvな気がしてきたぞ
