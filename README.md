@@ -11,4 +11,4 @@ TODO : ベース危険度は低いがlv加算が高い場合に危険度が低�
       ：デバッグログを出力しようとするとスパムになってしまう問題  
       ：＊解決＊//なぜかharmonyのzone.activateからログ出力しようとするとうまくいかない問題（別MOD）  
 ：DangerLvFixの調査  
-      →Zone_Field.cs：=>base.Tile.source.dangerLv //ノースティリスのマス目毎の危険度のことかなあ、_dangerLvは一層目のdangerLvな気がしてきたぞ
+      →Zone_Field.cs：=>base.Tile.source.dangerLv //デバッグモードで調査したところそこら辺のランダムマップやダンジョンでは０でありベース値ではなかった
