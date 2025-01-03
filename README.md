@@ -4,7 +4,7 @@
 Elin本体の処理をジャックするのでアプデが来るとバグる可能性＜＜特大＞＞
 
 効能：危険度(Zone.DangerLv)に対して以下の処理をする（はず）  
-最深到達層(EClass.player.stats.deepest)を参照して、それがベース危険度(Zone._dangerLv)＋lv加算(base.lv)より低ければlvの加算を行わない（はず）//再考慮
+最深到達層(EClass.player.stats.deepest)を参照して、それがベース危険度(Zone._dangerLv)＋lv加算(base.lv)より低ければlvの加算を行わない（はず）//再考慮  
 ※すくつでは無効としたい
 
 TODO : ベース危険度は低いがlv加算が高い場合に危険度が低くなってしまう可能性に対応  
